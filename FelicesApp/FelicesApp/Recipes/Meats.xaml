@@ -19,12 +19,46 @@
         <phone:Pivot Title="Meats">
             <!--Pivot item one-->
             <phone:PivotItem Header="Chicken">
-                <Grid/>
+                <Grid Margin="10,10,-10,-10">
+                	<CheckBox Content="Chicken" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,91,0,0"/>
+                	<CheckBox Content="Oil&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,136,0,0"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ingredients" VerticalAlignment="Top" Height="49" Width="203" FontSize="32" Margin="10,10,0,0"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                	<CheckBox Content="Spices&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,47,0,0"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Directions" VerticalAlignment="Top" Margin="10,220,0,0" Width="216" FontSize="32"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,285,0,0" Height="121" Width="309">
+                		<Run FontSize="22.667" Text="Combine all ingredients"/>
+                		<LineBreak/>
+                		<LineBreak/>
+                		<Run FontSize="22.667" Text="Bake at 375 for 40 minutes"/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run/>
+                	</TextBlock>
+                </Grid>
             </phone:PivotItem>
 
             <!--Pivot item two-->
             <phone:PivotItem Header="Sausage">
-                <Grid/>
+                <Grid>
+                	<CheckBox Content="Sausage&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,91,0,0"/>
+                	<CheckBox Content="Oil&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,136,0,0"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ingredients" VerticalAlignment="Top" Height="49" Width="203" FontSize="32" Margin="10,10,0,0"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                	<CheckBox Content="Spices&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,47,0,0" Height="71"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Directions" VerticalAlignment="Top" Margin="10,220,0,0" Width="216" FontSize="32"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,285,0,0" Height="121" Width="309">
+                		<Run FontSize="22.667" Text="Combine all ingredients"/>
+                		<LineBreak/>
+                		<LineBreak/>
+                		<Run FontSize="22.667" Text="Saute in pan until brown"/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run/>
+                	</TextBlock>
+                </Grid>
             </phone:PivotItem>
         </phone:Pivot>
     </Grid>

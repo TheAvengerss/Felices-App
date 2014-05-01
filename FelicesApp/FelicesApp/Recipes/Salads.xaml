@@ -18,17 +18,77 @@
         <!--Pivot Control-->
         <phone:Pivot Title="Salads">
             <!--Pivot item one-->
-            <phone:PivotItem Header="Garden">
-                <Grid/>
+            <phone:PivotItem Header="Garden" Margin="10,0,14,28">
+                <Grid HorizontalAlignment="Left" Height="100" Margin="209,166,0,0" VerticalAlignment="Top" Width="100">
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="-180,-79,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Cherry Tomato"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="-180,-115,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Romaine Lettuce"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="-180,76,0,-47" Width="253" Height="71" Checked="CheckBox_Checked" Content="Green Pepper"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="-180,37,0,-8" Width="253" Height="71" Checked="CheckBox_Checked" Content="Red Onion"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="-180,0,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Cucumber"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="-180,-39,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Carrots"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ingredients" VerticalAlignment="Top" Margin="-179.126,-145.669,0,0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Width="255.881" FontSize="32" Height="42.495">
+                		<TextBlock.RenderTransform>
+                			<CompositeTransform Rotation="0.047"/>
+                		</TextBlock.RenderTransform>
+                	</TextBlock>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Directions" VerticalAlignment="Top" Margin="-180,168,0,-110" Width="253" Height="42" FontSize="32"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="-156,215,-71,-282" Width="327" Height="167" FontSize="22.667">
+                		<Run Text="Cut all ingredients to bite size pieces"/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run Text="Combine all ingredients "/>
+                	</TextBlock>
+                </Grid>
             </phone:PivotItem>
 
             <!--Pivot item two-->
             <phone:PivotItem Header="Greek">
-                <Grid/>
+                <Grid>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="14,61,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Cherry Tomato"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="14,25,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Romaine Lettuce"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="14,216,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Spices"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="14,177,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Red Onion"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="14,140,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Cucumber"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="14,101,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Kalamata Olives"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ingredients" VerticalAlignment="Top" Margin="14.904,-5.37,0,0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Width="255.881" FontSize="32" Height="42.495">
+                		<TextBlock.RenderTransform>
+                			<CompositeTransform Rotation="0.047"/>
+                		</TextBlock.RenderTransform>
+                	</TextBlock>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Directions" VerticalAlignment="Top" Margin="14,308,0,0" Width="253" Height="42" FontSize="32"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="38,355,0,0" Width="327" Height="167" FontSize="22.667">
+                		<Run Text="Cut all ingredients to bite size pieces"/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run Text="Combine all ingredients "/>
+                	</TextBlock>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="14,253,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Feta&#xD;&#xA;"/>
+                </Grid>
             </phone:PivotItem>
 
             <phone:PivotItem Header="Caesar">
-                <Grid/>
+                <Grid>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="19,66,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Cherry Tomato"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="19,30,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Romaine Lettuce"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="19,182,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Croutons"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="19,145,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Parmesean"/>
+                	<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.087,-1.082" Margin="19,106,0,0" Width="253" Height="71" Checked="CheckBox_Checked" Content="Asiago&#xD;&#xA;"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ingredients" VerticalAlignment="Top" Margin="19.381,-0.893,0,0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Width="255.881" FontSize="32" Height="42.495">
+                		<TextBlock.RenderTransform>
+                			<CompositeTransform Rotation="0.047"/>
+                		</TextBlock.RenderTransform>
+                	</TextBlock>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Directions" VerticalAlignment="Top" Margin="19,253,0,0" Width="253" Height="42" FontSize="32"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="19,300,0,0" Width="327" Height="167" FontSize="22.667">
+                		<Run Text="Cut all ingredients to bite size pieces"/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run Text="Combine all ingredients "/>
+                	</TextBlock>
+                </Grid>
             </phone:PivotItem>
         </phone:Pivot>
     </Grid>

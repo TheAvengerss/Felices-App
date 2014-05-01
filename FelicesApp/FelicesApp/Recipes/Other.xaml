@@ -18,13 +18,70 @@
         <!--Pivot Control-->
         <phone:Pivot Title="Other">
             <!--Pivot item one-->
-            <phone:PivotItem Header="Pizza Sauce">
-                <Grid/>
+            <phone:PivotItem Header="Pizza Sauce" Margin="14,29,10,-1">
+                <Grid Margin="0,10,0,-10">
+                	<CheckBox Content="Tomato Paste" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8.954,91.582,0,0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                		<CheckBox.RenderTransform>
+                			<CompositeTransform SkewX="-1.155" TranslateX="0.726"/>
+                		</CheckBox.RenderTransform>
+                	</CheckBox>
+                	<CheckBox Content="Spices&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,47,0,0"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ingredients" VerticalAlignment="Top" Margin="10,4,0,0" Width="240" FontSize="32"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,180,0,0" Width="197" FontSize="32">
+                		<Run Text="Directions"/>
+                		<LineBreak/>
+                		<Run/>
+                	</TextBlock>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="30,243,0,0" Height="151" Width="291">
+                		<Run Text="Combine All Ingredients"/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run Text="Simmer for 30 minutes"/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run Text="Cool over ice"/>
+                	</TextBlock>
+                </Grid>
             </phone:PivotItem>
 
             <!--Pivot item two-->
-            <phone:PivotItem Header="Dough">
-                <Grid/>
+            <phone:PivotItem Header="Dough" Margin="0,0,24,28">
+                <Grid Margin="10,0,-10,0">
+                	<CheckBox Content="Water&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10.715,124.417,0,0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="73.433">
+                		<CheckBox.RenderTransform>
+                			<CompositeTransform SkewX="-1.155" TranslateX="0.726"/>
+                		</CheckBox.RenderTransform>
+                	</CheckBox>
+                	<CheckBox Content="Yeast&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,78,0,0" Height="71"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ingredients" VerticalAlignment="Top" Margin="10,4,0,0" Width="240" FontSize="32"/>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,279,0,0" Width="197" FontSize="32">
+                		<Run Text="Directions"/>
+                		<LineBreak/>
+                		<Run/>
+                	</TextBlock>
+                	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,342,0,0" Height="251" Width="291">
+                		<Run Text="Combine water, yeast and sugar. "/>
+                		<LineBreak/>
+                		<Run Text="Let rise."/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run Text="Combine Flour salt and yeast mixture"/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run Text="Mix on low speed for 15 minutes"/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run Text="Cover and let rise"/>
+                	</TextBlock>
+                	<CheckBox Content="Sugar" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,168,0,0"/>
+                	<CheckBox Content="Flour&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,213,0,0"/>
+                	<CheckBox Content="Salt&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,34,0,0" Checked="CheckBox_Checked" Height="77" Width="141" RenderTransformOrigin="0.532,0.193"/>
+                </Grid>
             </phone:PivotItem>
         </phone:Pivot>
     </Grid>

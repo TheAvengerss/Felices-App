@@ -16,5 +16,10 @@ namespace FelicesApp.Recipes
         {
             InitializeComponent();
         }
+
+        private void CheckBox_Checked(object sender, System.Windows.RoutedEventArgs e)
+        {
+        	// TODO: Add event handler implementation here.
+        }
     }
 }
